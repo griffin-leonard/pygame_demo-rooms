@@ -1,0 +1,83 @@
+BUGS
+* image for crumbling platform doesnt tesselate vertically (when platform height > 128)
+* close door entered from in room 6
+
+PRIORITY
++ particles
+    + when player dies
+    + when key is used
+    + crumbling platforms
+    + when breakable object is attacked
++ more music
++ spawn animation sequence and sound
+
+ROOMS
++ randomly lock some doors in room 2 at higher difficulties
++ room modifiers 
+    + control room to change modifiers 
+    + gravity direction
+    + light/dark
+    + slow time
+* room difficulty depends on rooms clear since death (instead of total clears in given room across deaths)?
+
+POWERUPS 
++ collect sound
++ collect animation (room pauses for second, colors blink)
+* color resets after action and animation
+dash
+    + particles for dash trail
+    + dash sound
+    + dash animation?
+    + dash cooldown (when able to use more than once)
+attack
+    + attack sound
+    + attack cooldown (when able to use more than once)
+    + can attack in last direction moved
+    + pogo on spikes
+
+OBJECTS
+doors
+    + doors that go to set locations instead of random
+    + animation for door opening/closing
+    + randomize door locations for room 3
+    + doors that can open on a timer or when attacked
+    + door lock direction same as gravity?
+crates
+    + open on a timer or when attacked
++ bomb
+    + explode after timer
+    + triggered by proximity, contact, etc. 
+    + can open some crates and doors? 
++ trapdoors
+    + open when triggered (by player, ect.)
+    + like a crumbling platform that resets
++ currency?
+
+MISC
++ font for room deaths and clears
++ icons for deaths and clears instead of text
+
+
+##########################
+bosses?
+farming sim, get items from dungeon? 
+meta puzzles to progress through rooms? (knowledge based?)
+
+powerup ideas
+    + dash, health, attack, shoot, teleport
+
+    + numbers on powerup indicate how many times it can be used? OR single use --> multi use when collect same color twice? 
+    OR
+    + yellow = amplifier (single -> multi use)? OR modifier?
+
+    + blue = dash (single use)
+        + violet = dash (mulit use)
+        + teal = teleport (single use)
+    + green = health (single use)
+        + yellow-green = health (multi use)
+    + red = attack (single use)
+        + orange = attack (multi use)
+    + purple = shoot (single use)
+        + magenta = shoot (multi use)
+
+

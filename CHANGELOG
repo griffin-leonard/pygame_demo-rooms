@@ -1,0 +1,90 @@
+Key:
+    + added feature
+    - removed feature
+    * changed existing feature or bug fix
+
+2/20/23
+    + player
+        + idle animation
+        + death animation
+    + background
+    + 8D movement rooms
+    + arrows
+    + death/resetting 
+    + platforming rooms
+        + gravity
+        + jumping
+    + spikes
+    + solid platforms
+        + collision check 
+    + flags for completing room
+
+2/21/23
+    + doors
+        + open and closed states
+    + debug text
+    + debug grid
+    + display room number
+    + randomly select rooms
+    + automatic room border creation for rooms
+    * spawn in correct location
+    + starting rooms
+    + death sound effect
+    + music
+        + progresses as rooms are cleared
+
+2/22/23
+    + jump sound effect
+    - removed flags
+    + door you enter from lock
+    + automatic door creation for rooms
+    * new door sprite
+    + door locking sound
+
+2/23/23
+    + keys
+        + keys follow player (or each other) after being collected
+        + can unlock doors
+        + keys persist between rooms but not between deaths
+    + door unlock sound
+
+2/28/23
+    + difficulty for rooms
+
+3/6/23
+    + crumbling platforms
+    * music stops when player dies
+
+3/7/23
+    * don't jump when reseting 
+    + 3 difficulties for room 2 (starting 8D room)
+    + added difficulty for room 5 (bullet hell room)
+    + support for any direction of gravity (unused)
+    + key collect sound
+    + font for room number
+    * cannot exit through door entered from
+
+3/9/23
+    + rooms display deaths and clears
+    + room 6
+    + random doors are open in room 3
+    + powerups
+        + 3 powerup colors
+        + powerup animation
+        + player changes color when powerup is collected
+
+3/10/23
+    + dash
+        + supported in all room types
+        + 8 directional
+    + crates
+        + keys can unlock locked crates
+        + unlock sound
+        + crates can hold items
+
+3/11/23
+    + attack
+        + can destroy breakable objects
+        + attack animation
+        + 8 directional
+        + supported in all room types
